@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+:root {
+  --bg: #fcffd6;
+  --text-color: #09020d;
+  --anchor-color: #adb5bd;
+  --btn-bg: #B8AA67;
+  --btn-bg-hover: #B4AB82; 
+  --accent: #40dda4;
+}
+
+@font-face {
+  font-family: "heavy rain";
+  src: url(assets/heavyRain.woff2);
+  src: url(assets/heavyRain.woff);
+}
+
+html {
+  background: var(--bg);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: var(--anchor-color);
+}
+h1, p, a {
+  color: var(--text-color);
+}
+p {
+  font-family: "Noto Serif";
+}
+h1, h4 {
+  text-transform: lowercase;
+  font-family: "heavy rain";
+}
+h1:not(nav h1) {
+  position: relative;
+}
+h1:not(nav h1)::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--accent);
+  height: 5px;
+  width: 25%;
+}
+nav {
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 5rem;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.icon {
+  padding-top: .2rem;
+}
+button {
+  background: var(--btn-bg);
+  border: none;
+  border-radius: 5px;
+  padding: .3rem 1rem;
+  cursor: pointer;
+}
+button:hover {
+  background: var(--btn-bg-hover);
+}
+
+main {
+  padding-top: 2rem;
+  padding-inline: 5rem;
+}
+
+h1 ~ p {
+  padding-top: 1.5rem;
+}
+
+p ~ p {
+  padding-top: 1rem;
+}
