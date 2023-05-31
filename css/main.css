@@ -2037,7 +2037,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #32383a;
+  background-color: #C0B179;
   font-family: "Spacegrotesk variablefont wght", sans-serif;
   color: #f1f1f1;
 }
@@ -2454,10 +2454,10 @@ a {
     linear,
     left bottom,
     left top,
-    color-stop(52%, #434a4d),
+    color-stop(52%, #0b2158),
     to(#575757)
   );
-  background-image: linear-gradient(360deg, #434a4d 52%, #575757);
+  background-image: linear-gradient(360deg, #0b2158 52%, #575757);
   text-align: left;
 }
 
@@ -2493,10 +2493,10 @@ a {
     linear,
     left top,
     left bottom,
-    color-stop(12%, #434a4d),
+    color-stop(12%, #0b2158),
     to(#575757)
   );
-  background-image: linear-gradient(180deg, #434a4d 12%, #575757);
+  background-image: linear-gradient(180deg, #0b2158 12%, #575757);
 }
 
 .heading-2 {
@@ -2611,7 +2611,7 @@ a {
 }
 
 .body {
-  background-color: #434a4d;
+  background-color: #0b2158;
   font-family: "Spacegrotesk variablefont wght", sans-serif;
 }
 
@@ -2732,10 +2732,10 @@ a {
       linear,
       left bottom,
       left top,
-      color-stop(26%, #434a4d),
+      color-stop(26%, #0b2158),
       to(#575757)
     );
-    background-image: linear-gradient(0deg, #434a4d 26%, #575757);
+    background-image: linear-gradient(0deg, #0b2158 26%, #575757);
   }
 
   .container-2 {
@@ -2752,10 +2752,10 @@ a {
       linear,
       left top,
       left bottom,
-      color-stop(20%, #434a4d),
+      color-stop(20%, #0b2158),
       to(#575757)
     );
-    background-image: linear-gradient(180deg, #434a4d 20%, #575757);
+    background-image: linear-gradient(180deg, #0b2158 20%, #575757);
   }
 
   .bold-text {
@@ -2974,7 +2974,7 @@ a {
   }
 
   .body {
-    background-color: #434a4d;
+    background-color: #0b2158;
   }
 }
 
